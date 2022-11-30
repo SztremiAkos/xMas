@@ -56,6 +56,9 @@ body {
     align-items: center;
     text-align: center;
 }
+.img{
+    padding: 15px;
+}
 
 .imageText {
     text-align: center;

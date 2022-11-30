@@ -44,8 +44,8 @@ function App() {
             {(isSadVisible || isHappyVisible) && displayedText}
           </div>
           <div className="image">
-            {isHappyVisible && <img src="panni.jpg" height={190 * 2} width={108 * 2} alt="panni"/>}
-            {isSadVisible && <img src="aki.jpg" height={190 * 2} width={108 * 2} alt="sad"/>}
+            {isHappyVisible && <img className="img" src="panni.jpg" height={190 * 2} width={108 * 2} alt="panni"/>}
+            {isSadVisible && <img className="img" src="aki.jpg" height={190 * 2} width={108 * 2} alt="sad"/>}
           </div>
         </div>
         {(!isHappyVisible && !isSadVisible) &&
