@@ -55,6 +55,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: justify;
+    position: relative;
+    border: 1px;
 }
 .answers{
     display: flex;
