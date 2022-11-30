@@ -39,8 +39,8 @@ function App() {
         <button onClick={handleReset}>Reset</button>
       </div>
       <div className="outer">
-        <div className="image">
-          {(isSadVisible || isHappyVisible) && displayedText}
+        <div id="image">
+          {(isSadVisible || isHappyVisible) && <span className="photoDesc">displayedText</span>}
           {isHappyVisible && <img src="panni.jpg" height={190 * 2} width={108 * 2} alt="panni"/>}
           {isSadVisible && <img src="aki.jpg" height={190 * 2} width={108 * 2} alt="sad"/>}
         </div>

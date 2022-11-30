@@ -58,6 +58,14 @@ body {
     position: relative;
     border: 1px;
 }
+
+.photoDesc{
+    font-size: 1.5em;
+}
+#id{
+    text-align: center;
+}
+
 .answers{
     display: flex;
     font-size: 24px;
