@@ -39,12 +39,14 @@ function App() {
         <button onClick={handleReset}>Reset</button>
       </div>
       <div className="outer">
-        <div className="imageText">
-          {(isSadVisible || isHappyVisible) && displayedText}
-        </div>
-        <div className="image">
-          {isHappyVisible && <img src="panni.jpg" height={190 * 2} width={108 * 2} alt="panni"/>}
-          {isSadVisible && <img src="aki.jpg" height={190 * 2} width={108 * 2} alt="sad"/>}
+        <div className="feedBack">
+          <div className="imageText">
+            {(isSadVisible || isHappyVisible) && displayedText}
+          </div>
+          <div className="image">
+            {isHappyVisible && <img src="panni.jpg" height={190 * 2} width={108 * 2} alt="panni"/>}
+            {isSadVisible && <img src="aki.jpg" height={190 * 2} width={108 * 2} alt="sad"/>}
+          </div>
         </div>
         {(!isHappyVisible && !isSadVisible) &&
             <div className='app'>

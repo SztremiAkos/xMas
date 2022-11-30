@@ -58,7 +58,10 @@ body {
 .imageText{
     text-align: center;
 }
-
+.feedBack{
+    display: inline-block;
+    justify-content: space-evenly;
+}
 
 .answers{
     display: flex;
