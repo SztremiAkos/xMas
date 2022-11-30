@@ -5,12 +5,20 @@ import useQuestions from "./hooks/useQuestions";
 function App() {
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [isHappyVisible, setIsHappyVisible] = useState(false);
+  const [isSadVisible, setIsSadVisible] = useState(false);
   const [score, setScore] = useState(0)
   const [showVid, onShowVid] = useState(false)
   const {questions} = useQuestions();
   const handleAnswer = (isCorrect: boolean) => {
     if (isCorrect) {
+      setIsHappyVisible(true);
       setScore(score + 1)
+      setTimeout(() => setIsHappyVisible(false), 1000);
+    }
+    else{
+      setIsSadVisible(true);
+      setTimeout(() => setIsSadVisible(false), 1000);
     }
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questions.length) setCurrentQuestion(nextQuestion)
@@ -27,6 +35,11 @@ function App() {
         <button onClick={handleReset}>Reset</button>
       </div>
       <div className="outer">
+        <div className="image">
+          {isHappyVisible && <img src="panna.jpg" height={190*2} width={108*2} alt="happy"/>}
+          {isSadVisible && <img src="akos.jpg" height={190*2} width={108*2} alt="sad"/>}
+        </div>
+        {(!isHappyVisible && !isSadVisible) &&
         <div className='app'>
           {showVid ? (
             <div className='score-section'>
@@ -42,7 +55,7 @@ function App() {
               </div>
             </>
           )}
-        </div>
+        </div>}
       </div>
     </>
   );

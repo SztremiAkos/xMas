@@ -14,7 +14,6 @@ body {
 
 body {
     background-color: #7cc6fe;
-
 }
 
 .reset {
@@ -50,6 +49,10 @@ body {
     box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
     display: inline-block;
     justify-content: space-evenly;
+}
+.image{
+    display: flex;
+    justify-content: center;
 }
 
 .score-section {
