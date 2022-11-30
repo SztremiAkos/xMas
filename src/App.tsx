@@ -17,6 +17,7 @@ function App() {
     else onShowVid(true);
   }
   const handleReset = () => {
+    onShowVid(false);
     setScore(0);
     setCurrentQuestion(0);
   }
