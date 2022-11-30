@@ -46,7 +46,7 @@ body {
     width: 300px;
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 42px 0 rgba(0, 0, 0, 0.75);
     display: inline-block;
     justify-content: space-evenly;
 }
