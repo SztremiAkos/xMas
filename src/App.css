@@ -50,20 +50,27 @@ body {
     display: inline-block;
     justify-content: space-evenly;
 }
-.image{
+
+.image {
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.imageText{
+
+.imageText {
     text-align: center;
 }
-.feedBack{
+
+.feedBack {
     display: inline-block;
     justify-content: space-evenly;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, .1);
+    padding: 5px;
+    border-radius: 15px;
 }
 
-.answers{
+.answers {
     display: flex;
     font-size: 24px;
     align-items: center;
