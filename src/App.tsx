@@ -40,9 +40,7 @@ function App() {
       </div>
       <div className="outer">
         <div className="image">
-          {(isSadVisible || isHappyVisible) && <div className="answers">
-            {displayedText}
-          </div>}
+          {(isSadVisible || isHappyVisible) && displayedText}
           {isHappyVisible && <img src="panni.jpg" height={190 * 2} width={108 * 2} alt="panni"/>}
           {isSadVisible && <img src="aki.jpg" height={190 * 2} width={108 * 2} alt="sad"/>}
         </div>
