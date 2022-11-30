@@ -51,18 +51,8 @@ body {
     justify-content: space-evenly;
 }
 .image{
-    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: justify;
-    position: relative;
-    border: 1px;
-}
-
-.photoDesc{
-    font-size: 1.5em;
-}
-#id{
     text-align: center;
 }
 
