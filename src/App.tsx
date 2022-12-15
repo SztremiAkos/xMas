@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <div className="reset">
-        <button onClick={handleReset}>Reset</button>
+        <button onClick={handleReset}>Ujra</button>
       </div>
       <div className="outer">
         <div className="feedBack">
@@ -55,8 +55,9 @@ function App() {
         {(!isHappyVisible && !isSadVisible) &&
             <div className='app'>
               {showVid ? (
-                <div className='score-section'>
-                    <Video />
+                <div className='video'>
+                  {score < questions.length/2 ? <button onClick={handleReset}>Ujra</button> :
+                    <Video />}
                 </div>
               ) : (
                 <>

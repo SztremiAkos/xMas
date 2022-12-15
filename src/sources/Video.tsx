@@ -1,10 +1,12 @@
 ﻿const Video = () => {
-  const src = "https://www.youtube.com/watch?v=xL9WQnlYdDo";
   return (
-    <video controls width="100%">
-      <source src={src} type="video/mp4"/>
-      Sorry, your browser doesn't support videos.
-    </video>
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    />
   );
 };
 
