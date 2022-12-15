@@ -1,4 +1,4 @@
-const useQuestions = () =>{
+const useQuestions = () => {
   const questions = [
     {
       questionText: "Melyik állatot hagytuk ki az állatkertben?",

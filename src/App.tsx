@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import useQuestions from "./hooks/useQuestions";
 import {goodAnswer, badAnswer} from "./hooks/useAnswers";
+import Video from "./sources/Video";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
   const [score, setScore] = useState(0)
   const [showVid, onShowVid] = useState(false)
   const {questions} = useQuestions();
+  
   const handleAnswer = (isCorrect: boolean) => {
     if (isCorrect) {
       setDisplayedText(goodAnswer[Math.floor(Math.random() * 4) + 1])
@@ -28,11 +30,13 @@ function App() {
     if (nextQuestion < questions.length) setCurrentQuestion(nextQuestion)
     else onShowVid(true);
   }
+  
   const handleReset = () => {
     onShowVid(false);
     setScore(0);
     setCurrentQuestion(0);
   }
+  
   return (
     <>
       <div className="reset">
@@ -52,7 +56,7 @@ function App() {
             <div className='app'>
               {showVid ? (
                 <div className='score-section'>
-                  You scored {score} out of {questions.length}
+                    <Video />
                 </div>
               ) : (
                 <>
