@@ -40,6 +40,7 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
 .feedBack {
     display: inline-block;
     justify-content: space-evenly;
@@ -48,18 +49,22 @@ body {
     padding: 15px;
     border-radius: 15px;
 }
+
 .imageText {
     text-align: center;
 }
+
 .image {
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 .img{
     border-radius: 15px;
     padding-top: 4px;
 }
+
 .app {
     background-color: #252d4a;
     width: 300px;
@@ -69,6 +74,7 @@ body {
     display: inline-block;
     justify-content: space-evenly;
 }
+
 .video {
     display: flex;
     font-size: 24px;
