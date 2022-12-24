@@ -91,7 +91,7 @@
         "isCorrect": true
       },
       {
-        "AnswerOption": "Panna nem akart felmászni a sziklára",
+        "AnswerOption": "Ákos nem akart felmászni a sziklára",
         "isCorrect": false
       },
       {
@@ -147,169 +147,64 @@
     ]
   },
   {
-    "Question": "?",
+    "Question": "Hol vannak a legfinomabb hamburgerek?",
     "Answers": [
       {
-        "AnswerOption": "Cápa",
+        "AnswerOption": "Simons Burger",
         "isCorrect": true
       },
       {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
+        "AnswerOption": "Blaha aluljáró",
+        "isCorrect": false
       },
       {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
+        "AnswerOption": "Spáten",
+        "isCorrect": false
       },
       {
-        "AnswerOption": "Cápa",
+        "AnswerOption": "KFC",
         "isCorrect": true
       }
     ]
   },
   {
-    "Question": "Melyik állatot hagytuk ki az állatkertben?",
+    "Question": "Milyen színű volt az első rózsád?",
     "Answers": [
       {
-        "AnswerOption": "Cápa",
+        "AnswerOption": "Sárga",
+        "isCorrect": false
+      },
+      {
+        "AnswerOption": "Fehér",
         "isCorrect": true
       },
       {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
+        "AnswerOption": "Piros",
+        "isCorrect": false
       },
       {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
+        "AnswerOption": "Rózsaszín",
+        "isCorrect": false
       }
     ]
   },
   {
-    "Question": "Melyik állatot hagytuk ki az állatkertben?",
+    "Question": "Tessék itt egy ingyen pont!",
     "Answers": [
       {
-        "AnswerOption": "Cápa",
+        "AnswerOption": "Jó megoldás",
         "isCorrect": true
       },
       {
-        "AnswerOption": "Cápa",
+        "AnswerOption": "Ez nem",
         "isCorrect": true
       },
       {
-        "AnswerOption": "Cápa",
+        "AnswerOption": "Ez sem",
         "isCorrect": true
       },
       {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "Question": "Melyik állatot hagytuk ki az állatkertben?",
-    "Answers": [
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "Question": "Melyik állatot hagytuk ki az állatkertben?",
-    "Answers": [
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "Question": "Melyik állatot hagytuk ki az állatkertben?",
-    "Answers": [
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "Question": "Melyik állatot hagytuk ki az állatkertben?",
-    "Answers": [
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      }
-    ]
-  },
-  {
-    "Question": "Melyik állatot hagytuk ki az állatkertben?",
-    "Answers": [
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
-        "isCorrect": true
-      },
-      {
-        "AnswerOption": "Cápa",
+        "AnswerOption": "ez talán az",
         "isCorrect": true
       }
     ]

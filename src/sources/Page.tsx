@@ -3,7 +3,6 @@ import React, {useState} from "react";
 import useQuestions from "../hooks/useQuestions";
 import {badAnswer, goodAnswer} from "../hooks/useAnswers";
 
-const prefixes = ['a','b','c','d'];
 const Page = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [isHappyVisible, setIsHappyVisible] = useState(false);
@@ -38,7 +37,10 @@ const Page = () => {
   return (
     <>
       <div className="reset">
-        <button onClick={handleReset}>Ujra</button>
+        <button onClick={handleReset}>Újra</button>
+        <div className="score">
+          <span>   Score: {score}</span>
+        </div>
       </div>
       <div className="outer">
         <div className="feedBack">
@@ -54,11 +56,12 @@ const Page = () => {
             <div className='app'>
               {showVid ? (
                 <div className='video'>
-                  {score < questions.length/2 ? <button onClick={handleReset}>Ujra</button> :
-                    <Video />}
+                  {score < questions.length / 2 ? <button onClick={handleReset}>Újra</button> :
+                    <Video/>}
                 </div>
               ) : (
                 <>
+                  {currentQuestion}/{questions.length}
                   <div className='question-count'><span>{questions[currentQuestion].question}</span></div>
                   <div className='answer-section'>
                     {questions[currentQuestion].answers.map((answerOption, index) => (
